@@ -15,6 +15,7 @@ Using a timer to break your work into session blocks (usually 25 minutes). Separ
 * Automatically reset clock to original time after the 4 blocks
 * Start, pause, and reset buttons
 * Styled using less preprocessor 
+* Make the app responsive
 
 ## Stretch Feature Ideas
 * Sound alert when the work session is over
