@@ -1,0 +1,55 @@
+.body {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	.flex(center; center; column);
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.clock-options {
+		.center;
+
+		.option {
+			.flex(center; center; column);
+			padding: 10px;
+
+			.edit {
+				padding: 10px 5px;
+				.flex();
+				font-size: 30px;
+
+				.edit-button {
+					margin: 0 10px;
+					cursor: pointer;
+
+					img {
+						width: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.timer-container {
+		border: 5px solid #c0c0c0;
+		padding: 10px;
+		margin-bottom: 15px;
+		.flex(center; center; column);
+		.timer {
+			.flex(center, center);
+			font-size: 70px;
+			font-family: 'Orbitron', sans-serif;
+			padding: 15px;
+		}
+	}
+
+	.button {
+		color: #c0c0c0;
+		border: 5px solid #c0c0c0;
+		font-size: 16px;
+		text-transform: uppercase;
+		padding: 5px 10px;
+		background-color: white;
+	}
+}

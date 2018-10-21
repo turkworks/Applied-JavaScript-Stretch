@@ -3,12 +3,56 @@
 
 <head>
 	<title>Pomodoro Clock</title>
-	<link rel="stylesheet" href="./CSS/index.css">
+  <link rel="stylesheet" href="./CSS/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+  <script src="./index.js" async></script>
 </head>
 
 <body>
-  <div>
-    <p>Hi this is a test</p>
+  <div class="body">
+    <h1>Pomodoro Clock</h1> 
+
+    <div class="clock-options">
+      <div class ="option">
+        <h3>Break Length</h3>
+        <div class="edit">
+        <div class="edit-button" id="break-increase"><img src="/img/arrow-up.svg"></div>
+        <div class="length" id="break">-</div> 
+        <div class="edit-button" id="break-decrease"><img src="/img/arrow-pointing-down.svg"></div>
+        </div>
+      </div>
+      <div class ="option">
+        <h3>Session Length</h3>
+        <div class="edit">
+        <div class="edit-button" id="session-increase"><img src="/img/arrow-up.svg"></div>
+        <div class="length" id="session">-</div> 
+        <div class="edit-button" id="session-decrease"><img src="/img/arrow-pointing-down.svg"></div>
+        </div>
+      </div>
+    </div>
+    <div class="timer-container">
+      <h3 class="timer-label">
+        Session
+      </h3>
+
+      <div class="timer">
+        <span id="time">--:--</span>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="button" id="start-pause">
+        Start
+      </button>
+      <button class="button" id="reset">
+        Reset
+      </button>
+    </div>
+
   </div>
 </body>
 </html>
