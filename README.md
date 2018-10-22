@@ -24,6 +24,7 @@ Using a timer to break your work into session blocks (usually 25 minutes). Separ
 * Record the amount of sessions completed, with a reset button
 * Add animations!
 * Check out [this site](https://zapier.com/blog/best-pomodoro-apps/) for more stretch feature ideas! 
+* Host your site on netlify 
 
 
 
